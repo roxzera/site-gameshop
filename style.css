@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container nav ul li,
+.container h1{
+    display: inline;
+    font-family: 'Bungee', sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #ecf0f1;
+}
+
+.container nav li a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #ecf0f1;
+}
+
+section nav,
+article .container p {
+    font-family: 'Roboto', sans-serif;
+    color: #182C61;
+}
+
+section h2 {
+    font-family: 'Bungee', sans-serif;
+}
+
+.container nav ul li {
+    margin-left: 16px;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #182C61;
+    padding: 16px 0px;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bands-list li img{
+    height: 24px;
+}
+
+.bands-list li{
+    display: inline;
+}
+
+.bands-list li a{
+    text-decoration: none;
+}
+
+section .container {
+    padding: 24px 0;
+}
+
+.main h2 {
+    font-weight: normal;
+    margin-bottom: 16px;
+}
+
+.frist-lorem {
+    margin-bottom: 8px;
+}
+
+.main nav {
+    margin-bottom: 8px;
+    width: 98%;
+}
+
+section {
+    color: #182C61;
+}
+
+.bands-list li {
+    margin-right: 8px;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: #ecf0f1;
+    background-color: #182C61;
+    padding: 16px 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+.forms {
+    display: flex;
+    flex-direction: column;
+}
+
+article .container h2,
+article .container h3 {
+    font-family: 'Bungee', sans-serif;
+    color: #182C61;
+    font-weight: normal;
+}
+
+article .container h2 {
+    margin: 0px 0px 16px;
+}
+
+article .container {
+    padding: 24px 0;
+}
+
+.store-img {
+    margin: 0px 32px 0px 0px;
+}
+
+article h3 {
+    margin: 0px 0px 16px;
+}
+
+.forms input,
+.forms textarea,
+.forms button {
+    font-family: 'Roboto', sans-serif;
+    padding: 8px;
+    margin-bottom: 8px;
+    width: 320px;
+}
+
+.forms textarea {
+    resize: none;
+    height: 180px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.forms button {
+    background-color: #182C61;
+    color: #ecf0f1;
+    font-family: 'Bungee', sans-serif;
+    border: none;
+    cursor: pointer;
+}
+
+.forms button:hover {
+    background-color: #314e9e;
+}
+
+input:focus, textarea:focus {
+    outline-color: #182C61;
+}
